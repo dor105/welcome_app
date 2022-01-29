@@ -1,0 +1,78 @@
+body{
+
+    background-color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+
+p {
+
+    color: white;
+    font-family: cursive;
+    font-size: 1.2em;
+    margin: 20px; 
+
+}
+
+img {
+
+    margin: 60px 0 30px 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 20cm;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+#hello{
+
+background-color:rgb(187, 81, 81);
+height: auto;
+width: auto;
+
+}
+
+#hello:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+
+.cool-link {
+    display: inline-block;
+    color: chartreuse;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1.2em;
+    position: fixed ;
+    bottom: 10px;    
+    position: fixed;
+    width: 350px;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: whitesmoke;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+    
+}

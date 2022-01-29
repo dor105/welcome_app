@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Wellcome-App</title>
+  <link rel="stylesheet" href="{{
+    url_for('static', filename='style.css')}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <img src="https://i.ibb.co/MsxgyLW/katie-moum-7-XGt-Yef-MXi-Q-unsplash.jpg" alt="katie-moum-7-XGt-Yef-MXi-Q-unsplash"></a>
+  <!-- Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/saying-hello?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+  <br>
+  <form action="hello" method="post">
+    {%for message in get_flashed_messages()%}
+       <p> {{message}} </p>
+    {% endfor %}
+    <br>
+    <input type="text" name="name_input">
+    <br>
+    <input type="submit" value="Say Hello!" id="hello">
+  </form>
+  
+  <a class="cool-link" href="https://github.com/dor105/wellcome_app.git">Check out the GitHub repo Project!</a>
+</body>
+
+</html>
