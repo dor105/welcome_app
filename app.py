@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, flash
 import logging as logger
 logger.basicConfig(level="DEBUG")
-import os
 
 
 app = Flask(__name__)
@@ -20,6 +19,5 @@ def hello():
 app.secret_key = 'super secret key'
 
 if __name__ == '__main__':
-
-    logger.debug("Starting Flask Server")
-    app.run(host=os.environ.get("0.0.0.0"),port=5000,debug=True,use_reloader=True)
+    logger.debug("Starting Flask App")
+    app.run(debug=True, host='0.0.0.0')
