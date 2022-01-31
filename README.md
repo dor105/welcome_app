@@ -4,7 +4,7 @@ Say Hello To Everyone ! :raising_hand_man:
 
 # Introduction
 
-A simple Flask app that combine Use with Python, Html & Css, Javascript.
+A simple Flask app that combine Use with Python, Html & Css, Javascript.  
 also i'm Dockerize the Application to run on container.
 
 # How To?
