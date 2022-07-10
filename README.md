@@ -1,19 +1,19 @@
-# Welcome App  
+# `Welcome-app`
 
-Say Hello To Everyone ! :raising_hand_man:
+### Say hello 2 everyone ! :raising_hand_man:
 
-# Introduction
+#### Introduction
 
-A simple Flask app that combine Use with Python, Html & Css, Javascript.  
-also i'm Dockerize the Application to run on container.
+>a simple flask app that combine use with python, html & css, javascript.  
+also i'm dockerize the app to run inside container...
 
-# How To?
+#### How to?
 
-1. clone the repository  
-2. cd welcome_app  
-3. run command: docker build -t welcome_app . -f Dockerfile  
-4. run command: docker run --rm -d -p 5000:5000 welcome_app  
-5. open web browser type localhost:5000 / 127.0.0.1:5000  
+:one: <b>clone</b> the repository  
+:two: <b>cd</b> welcome_app  
+:three: run command: `docker build -t welcome_app .`  
+:four: run command: `docker run --rm -d -p 5000:5000 welcome_app`  
+:five: open web browser type: `localhost:5000 / 127.0.0.1:5000`  
 
 ---
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://il.linkedin.com/in/dor-levi-142506196?trk=people-guest_people_search-card)
